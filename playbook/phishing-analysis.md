@@ -1,19 +1,19 @@
 
-## ✉️ Use Case 1 – Phishing Triage: Header & Payload Analysis
+## Phishing Email Triage: Header & Payload Analysis
 
-### 📌 Objective
+###  Objective
 Demonstrate structured phishing triage process using:
 - Header inspection
 - IOC enrichment
 - Payload evaluation
 
-### 📥 Scenario Details
-- Spoofed email from `hr@companycareers.xyz`
+###  Scenario Details
+- Spoofed email from `hr@infotechScareers.xyz`
 - Subject: “URGENT: Updated Salary Review”
-- Attachment: `SalaryAdjustments.xlsm`
-- URL in body: `http://company-secure-login.com`
+- Attachment: `salaryreview.xlsm`
+- URL in body: `http://infotech-secure-login.com`
 
-### 🔍 Analysis Steps
+###  Analysis Steps
 1. **Header Review**
    - SPF/DKIM/DMARC fail
    - IP from non-authorized server
@@ -22,12 +22,12 @@ Demonstrate structured phishing triage process using:
    - `.xlsm` file flagged in VirusTotal (6/68 engines)
    - URL redirects to credential-harvesting page (via URLScan)
 
-### 🧠 IOCs Extracted
+###  IOCs Extracted
 - SHA256 hash of attachment
 - IP address of malicious site
 - Suspicious domain
 
-### 🤖 Automation Plan (Python-based)
+###  Automation Plan (Python-based)
 - Extract links & attachments
 - Hash and check via VirusTotal API
 - Log unknowns, alert on known-bads
