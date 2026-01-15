@@ -8,7 +8,7 @@ Demonstrate structured phishing triage process using:
 - Payload evaluation
 
 ###  Scenario Details
-- Spoofed email from `hr@infotechScareers.xyz`
+- Spoofed email from `hr@infotechScareers.co`
 - Subject: “URGENT: Updated Salary Review”
 - Attachment: `salaryreview.xlsm`
 - URL in body: `http://infotech-secure-login.com`
