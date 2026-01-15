@@ -1,1 +1,68 @@
+#  Cybersecurity Portfolio  
+A collection of hands-on cybersecurity projects demonstrating skills in malware analysis, network security, threat detection, packet analysis, and blue-team operations.  
+This portfolio highlights my practical learning and showcases real-world defensive techniques used by SOC and Cyber Defence teams.
+
+---
+
+##  Project Overview
+
+### 1.  Malware Analysis  
+**File:** `malware-analysis/virustotal-YARA.md`  
+A step-by-step analysis of a malicious PDF file using **VirusTotal**, **YARA rules**, and basic malware triage techniques.  
+This project demonstrates:  
+- Identifying malicious indicators inside a suspicious file  
+- Writing and applying custom YARA signatures  
+- Understanding malware behaviour and threat classification  
+
+---
+
+### 2.  OSI Layers – Attacks & Controls  
+**File:** `osi-layers-attacks-controls/osi-layer-attack-control-matrix.md`  
+A clear breakdown of the **OSI model**, common cyber attacks at each layer, and best-practice security controls.  
+This project demonstrates:  
+- Strong foundational knowledge in networking  
+- Mapping cyber threats to network layers  
+- Understanding defensive mechanisms like Firewalls, IDS/IPS, Port Security, VLANs, etc.  
+
+---
+
+### 3.  Wireshark Network Traffic Analysis  
+**File:** `wireshark/network-traffic.md`  
+A practical project analysing packet captures (PCAP) using **Wireshark**.  
+Includes:  
+- Identifying normal vs suspicious network behaviour  
+- Understanding protocols (TCP, DNS, HTTP, ARP)  
+- Recognizing signs of scanning, spoofing, and anomalies  
+
+This demonstrates practical **network forensics** and packet-level understanding — a core SOC skill.
+
+---
+
+##  Skills Demonstrated
+- Malware Analysis (VirusTotal, YARA)
+- Email & File-Based Threat Analysis
+- OSI Layer Threat Mapping
+- Network Forensics (Wireshark)
+- Detection Engineering (KQL, Sentinel)
+- Incident Documentation & Reporting
+- Cybersecurity Fundamentals (Blue Team)
+- Threat Intelligence Concepts
+
+---
+
+##  Purpose of This Portfolio
+This portfolio highlights my transition into cybersecurity by showing real practical skills rather than just theory.  
+Each project is designed to reflect tasks performed by:
+- SOC Analysts  
+- Incident Responders  
+- Cyber Defence Analysts  
+- Blue Team Engineers  
+
+---
+
+##  Contact  
+**LinkedIn:** <https://www.linkedin.com/in/komalashivayyahiremath/>  
+---
+
+ *Thank you for viewing my cybersecurity portfolio!*  
 
