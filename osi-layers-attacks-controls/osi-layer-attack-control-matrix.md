@@ -1,4 +1,4 @@
-# 🛡️ OSI Layers vs Possible Cyber Attacks & Controls
+#  OSI Layers vs Possible Cyber Attacks & Controls
 
 This document maps each OSI Layer to common cyber attacks and recommended security controls.  
 A great reference for networking, SOC analysis, and Blue Team investigations.
