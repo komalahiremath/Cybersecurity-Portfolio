@@ -9,9 +9,6 @@ The task was to perform a **Risk assessement on an simulated orgranisation netwo
 - Analysing potential threats and attack paths  
 - Recommending security controls and tools to mitigate the risks :contentReference[oaicite:0]{index=0}
 
-Although this was a **scenario-based** exercise (not a live production network), it followed a structured, industry-aligned approach to network risk assessment.
-
-
 ## Objectives
 
 - Evaluate and select an appropriate **risk assessment framework** for a network-focused use case  
@@ -52,7 +49,7 @@ Each step is explained in more detail below.
 - **OCTAVE-S**  
 - **FAIR**  
 - **ISO 27001**  
-- **OCTAVE Allegro** :contentReference[oaicite:1]{index=1}  
+- **OCTAVE Allegro**   
 
 ### Key Reasoning
 
@@ -82,7 +79,7 @@ Each step is explained in more detail below.
 - **Servers**  
 - **Routers**  
 - **Switches**  
-- **Wireless access points / wireless networks** :contentReference[oaicite:2]{index=2}  
+- **Wireless access points / wireless networks** 
 
 These were treated as **critical network assets** within the scenario, forming the basis for risk and threat analysis.
 
@@ -142,7 +139,7 @@ These scenarios were used to qualitatively assess **likelihood and impact** for 
 - **Intrusion Detection / Prevention Systems (IDS / IPS)**  
   - Monitors network traffic for malicious patterns or anomalies.  
 - **Malware Scanning and Endpoint Protection**  
-  - Helps detect and block malware at the endpoint level. :contentReference[oaicite:4]{index=4}  
+  - Helps detect and block malware at the endpoint level. 
 
 ### Example Tools Recommended
 
