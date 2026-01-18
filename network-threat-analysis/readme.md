@@ -1,8 +1,8 @@
-# Network threat analysis on Enterprise Network (STP – Capslock)
+# Network risk assessement on Enterprise Network (STP – Capslock)
 
 ## Overview
   
-The task was to perform a **Threat analysis on an simulated orgranisation network**, focusing on:
+The task was to perform a **Risk assessement on an simulated orgranisation network**, focusing on:
 
 - Understanding the network architecture  
 - Identifying critical assets and environments  
@@ -11,7 +11,6 @@ The task was to perform a **Threat analysis on an simulated orgranisation networ
 
 Although this was a **scenario-based** exercise (not a live production network), it followed a structured, industry-aligned approach to network risk assessment.
 
----
 
 ## Objectives
 
@@ -21,7 +20,6 @@ Although this was a **scenario-based** exercise (not a live production network),
 - Understand the **network topology** and related weaknesses  
 - Recommend **security controls and tools** aligned with the identified risks  
 
----
 
 ## Scenario
 
@@ -33,7 +31,6 @@ The fictional organisation used in this assessment has:
 
 This structure introduces dependencies on central components and potential paths for lateral movement if the network is not properly segmented.
 
----
 
 ## Methodology (High-Level Steps)
 
@@ -45,7 +42,6 @@ This structure introduces dependencies on central components and potential paths
 
 Each step is explained in more detail below.
 
----
 
 ## 1. Framework Review and Selection
 
@@ -68,9 +64,8 @@ Each step is explained in more detail below.
   - Better suited for **information and network asset risk analysis**  
   - Allows creation of **threat scenarios** around specific network environments  
 
-👉 **Outcome:** Selected **OCTAVE Allegro** as the primary framework for the risk assessment.
+ **Outcome:** Selected **OCTAVE Allegro** as the primary framework for the risk assessment.
 
----
 
 ## 2. Identification of Network Environments & Assets
 
@@ -91,7 +86,6 @@ Each step is explained in more detail below.
 
 These were treated as **critical network assets** within the scenario, forming the basis for risk and threat analysis.
 
----
 
 ## 3. Threat & Attack Path Analysis
 
@@ -113,7 +107,6 @@ These were treated as **critical network assets** within the scenario, forming t
 
 These scenarios were used to qualitatively assess **likelihood and impact** for different parts of the network.
 
----
 
 ## 4. Network Topology Analysis
 
@@ -133,9 +126,8 @@ These scenarios were used to qualitatively assess **likelihood and impact** for 
 - **Lateral Movement Risk**:  
   - Without proper segmentation, compromise in one area could allow attackers to move to other divisions or offices.  
 
-👉 This analysis supports both **risk assessment** and **SOC monitoring priorities**, highlighting where detection and controls are most needed.
+ This analysis supports both **risk assessment** and **SOC monitoring priorities**, highlighting where detection and controls are most needed.
 
----
 
 ## 5. Recommended Security Controls & Tools
 
@@ -168,7 +160,6 @@ These scenarios were used to qualitatively assess **likelihood and impact** for 
 
 These recommendations link the **theoretical risk assessment** to practical **defensive controls** and **SOC-relevant tooling**.
 
----
 
 ## Key Outcomes
 
@@ -177,7 +168,6 @@ These recommendations link the **theoretical risk assessment** to practical **de
 - Recommended **practical security controls and tools** to mitigate risks and improve visibility.  
 - Applied the **OCTAVE Allegro framework** to organise risk analysis activities and outcomes.
 
----
 
 ## Skills Demonstrated
 
@@ -188,4 +178,3 @@ These recommendations link the **theoretical risk assessment** to practical **de
 - Mapping threats to mitigations (segmentation, NAC, IDS/IPS)  
 - Awareness of SOC-relevant tools (Snort, CrowdSec, OSSEC, FortiNAC, NordLayer)
 
----
