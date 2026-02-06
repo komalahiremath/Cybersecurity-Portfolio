@@ -36,7 +36,7 @@ Throughout the project, I used **Wireshark display filters** to isolate and anal
 ##  Tools Used
 
 - **Wireshark** — packet capture analysis  
-- **Sample PCAP file** — (https://s3.amazonaws.com/tcpreplay-pcap-files/smallFlows.pcap)used for learning and traffic investigation  
+- **Sample PCAP file** — (https://s3.amazonaws.com/tcpreplay-pcap-files/smallFlows.pcap) -used for learning and traffic investigation  
 - **Windows Host Machine** — analysis environment  
 
 ---
