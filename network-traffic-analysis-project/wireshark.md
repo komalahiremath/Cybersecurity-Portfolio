@@ -55,13 +55,13 @@ http                       #protocol
 ip.src == 192.168.1.1      # Filter packets from a specific IP  
 ip.dst == 192.168.1.2      # Filter packets to a specific IP  
 tcp.port == 80             # Show only HTTP traffic  
-http.request.method == "GET"   # Show HTTP requests
-tcp.len >=100 and tcp.len <=500  #100 to 500 bytes
-http.host contains "google"   #contain serching
+http.request.method == "GET"     # Show HTTP requests
+tcp.len >=100 and tcp.len <=500  # Packet size
+http.host contains "google"      # Contain serching
 frame contains "http"
-frame contains "password"   #text searching
-!arp                       #remove arp packet
-http contains "user" or http contains "pass" or http contains "login"    #finding clear-text credentials in traffic
+frame contains "password"        # Text searching
+!arp                             # Remove arp packet
+http contains "user" or http contains "pass" or http contains "login"    # Finding clear-text credentials in traffic
 ```
 Other features include:  
 **Packet marking** – Highlight specific packets for review  
