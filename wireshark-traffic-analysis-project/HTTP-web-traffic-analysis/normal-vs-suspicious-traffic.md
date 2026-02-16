@@ -68,7 +68,7 @@ Same source IP
 Short time window
 No successful content delivery
 
-- Suspicious HTTP Traffic (Web Application Attack)
+-Suspicious HTTP Traffic (Web Application Attack)
 - Characteristics
 HTTP Status Code: 408 Request Timeout
 Incomplete or delayed requests
@@ -92,5 +92,5 @@ Same source IP
 Short time window
 No completed transactions
 
-- Conclusion
+-Conclusion
 Normal HTTP traffic shows successful content delivery, while repeated HTTP 408 errors indicate suspicious behavior consistent with a web application availability attack. Early detection can prevent service disruption.
