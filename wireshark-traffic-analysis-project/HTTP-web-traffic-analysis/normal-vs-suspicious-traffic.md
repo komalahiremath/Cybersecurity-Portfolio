@@ -4,7 +4,6 @@
 This analysis compares normal HTTP web traffic with suspicious HTTP traffic indicative of a web application attack using packet capture (PCAP) analysis in Wireshark.
 
 ## Normal HTTP Traffic (First screenshot – HTTP 200 OK)
-
 What you see
 HTTP responses: 200 OK
 Content types: text/html, image/jpeg
@@ -72,7 +71,7 @@ Same source IP
 Short time window
 No successful content delivery
 
-## Suspicious HTTP Traffic (Web Application Attack)
+Suspicious HTTP Traffic (Web Application Attack)
 Characteristics
 HTTP Status Code: 408 Request Timeout
 Incomplete or delayed requests
