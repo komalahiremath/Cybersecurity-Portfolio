@@ -3,7 +3,7 @@
 ## 1. Overview
 This analysis compares normal HTTP web traffic with suspicious HTTP traffic indicative of a web application attack using packet capture (PCAP) analysis in Wireshark.
 
-##Normal HTTP Traffic (First screenshot – HTTP 200 OK)
+## Normal HTTP Traffic (First screenshot – HTTP 200 OK)
 
 What you see
 HTTP responses: 200 OK
@@ -24,14 +24,14 @@ Content-Type: image/jpeg
 Server: Apache
 This represents normal user browsing behavior where web resources are successfully retrieved.
 
-Suspicious HTTP Traffic (Second screenshot – HTTP 408 Request Timeout)
-What you see
+## Suspicious HTTP Traffic (Second screenshot – HTTP 408 Request Timeout)
+- What you see
 HTTP Status Code: 408 Request Timeout
 Repeated requests from same source
 Server: AkamaiGHost
 Incomplete or slow HTTP requests
 
-Key indicators
+- Key indicators
 
 Status Code: 408
 Delayed / incomplete HTTP headers
@@ -72,7 +72,7 @@ Same source IP
 Short time window
 No successful content delivery
 
--Suspicious HTTP Traffic (Web Application Attack)
+## Suspicious HTTP Traffic (Web Application Attack)
 Characteristics
 HTTP Status Code: 408 Request Timeout
 Incomplete or delayed requests
