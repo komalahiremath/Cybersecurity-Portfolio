@@ -91,4 +91,5 @@ Short time window
 No completed transactions
 
 ### Conclusion
+
 Normal HTTP traffic shows successful content delivery, while repeated HTTP 408 errors indicate suspicious behavior consistent with a web application availability attack. Early detection can prevent service disruption.
