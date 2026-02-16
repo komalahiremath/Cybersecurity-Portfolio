@@ -4,18 +4,18 @@
 This analysis compares normal HTTP web traffic with suspicious HTTP traffic indicative of a web application attack using packet capture (PCAP) analysis in Wireshark.
 
 ## Normal HTTP Traffic (First screenshot – HTTP 200 OK)
-- What you see
-HTTP responses: 200 OK
-Content types: text/html, image/jpeg
-Legitimate servers (Apache, Akamai, Skype assets)
-Normal request–response flow
-TCP reassembly working correctly
+### What you see
+- HTTP responses: 200 OK
+- Content types: text/html, image/jpeg
+- Legitimate servers (Apache, Akamai, Skype assets)
+- Normal request–response flow
+- TCP reassembly working correctly
 
-- Key indicators
-Status Code: 200
-Predictable URIs (images, webpages)
-Reasonable response sizes
-No abnormal retries or errors
+### Key indicators
+- Status Code: 200
+- Predictable URIs (images, webpages)
+- Reasonable response sizes
+- No abnormal retries or errors
 
 - Example
 HTTP/1.1 200 OK
