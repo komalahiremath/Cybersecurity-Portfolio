@@ -1,4 +1,4 @@
-# Active Directory Home Lab – SOC Analyst Security Monitoring Project
+# Active Directory Home Lab – Security Monitoring Project
 
 ## Overview
 This project demonstrates how to build a fully functional **Active Directory (AD) home lab** designed for cybersecurity learning and security monitoring practice. The lab simulates a real-world enterprise environment where defenders monitor attacker activity.
