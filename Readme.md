@@ -13,7 +13,7 @@ I am currently seeking opportunities in **Security Analyst / SOC Analyst roles i
 Built a cloud-based honeypot using Azure VM, Microsoft Sentinel, and Defender for Cloud to detect and analyse real-time brute-force attacks. Visualised attacker activity using KQL dashboards.
 
 **Skills:** Azure Sentinel, KQL, Log Analytics, Threat Detection, SIEM  
- Repo: `Cloud-Security-Monitoring`
+ `Cloud-Security-Monitoring`
 
 ---
 
@@ -22,7 +22,7 @@ Built a cloud-based honeypot using Azure VM, Microsoft Sentinel, and Defender fo
 Simulated reverse TCP malware in a Kali–Windows lab environment. Analysed host and network logs in Splunk to detect malicious activity and identify IOCs.
 
 **Skills:** Splunk, Log Analysis, IOC Detection, MITRE ATT&CK  
- Repo: `Splunk-Malware-Investigation`
+ `Splunk-Malware-Investigation`
 
 ---
 
@@ -31,7 +31,7 @@ Simulated reverse TCP malware in a Kali–Windows lab environment. Analysed host
 Monitored Windows Active Directory logs in Splunk to detect brute-force authentication attacks and suspicious login behaviour.
 
 **Skills:** SIEM Monitoring, Authentication Logs, Threat Detection  
- Repo: `Active-Directory-Monitoring`
+ `Active-Directory-Monitoring`
 
 ---
 ### Microsoft Defender: Incident Simulation
