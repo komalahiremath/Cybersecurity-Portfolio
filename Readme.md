@@ -13,7 +13,7 @@ I am currently seeking opportunities in **Security Analyst / SOC Analyst roles i
 Built a cloud-based honeypot using Azure VM, Microsoft Sentinel, and Defender for Cloud to detect and analyse real-time brute-force attacks. Visualised attacker activity using KQL dashboards.
 
 **Skills:** Azure Sentinel, KQL, Log Analytics, Threat Detection, SIEM  
-📁 Repo: `Cloud-Security-Monitoring`
+ Repo: `Cloud-Security-Monitoring`
 
 ---
 
@@ -22,7 +22,7 @@ Built a cloud-based honeypot using Azure VM, Microsoft Sentinel, and Defender fo
 Simulated reverse TCP malware in a Kali–Windows lab environment. Analysed host and network logs in Splunk to detect malicious activity and identify IOCs.
 
 **Skills:** Splunk, Log Analysis, IOC Detection, MITRE ATT&CK  
-📁 Repo: `Splunk-Malware-Investigation`
+ Repo: `Splunk-Malware-Investigation`
 
 ---
 
@@ -31,7 +31,7 @@ Simulated reverse TCP malware in a Kali–Windows lab environment. Analysed host
 Monitored Windows Active Directory logs in Splunk to detect brute-force authentication attacks and suspicious login behaviour.
 
 **Skills:** SIEM Monitoring, Authentication Logs, Threat Detection  
-📁 Repo: `Active-Directory-Monitoring`
+ Repo: `Active-Directory-Monitoring`
 
 ---
 ### Microsoft Defender: Incident Simulation
@@ -115,30 +115,11 @@ ISO 27001, OWASP Top 10, Cyber Kill Chain
 
 ---
 
-##  Lab Experience
-
-- SOC L1 Labs (RangeForce / TryHackMe)  
-- Log analysis using Wazuh SIEM  
-- Investigated PowerShell-based attacks and encoded payloads  
-- Detected unauthorised access and suspicious login attempts  
-
----
-
-##  Career Objective
-
-I am actively looking for **entry-level to junior Security Analyst / SOC Analyst roles in the UK**, particularly in:
-
-- Microsoft Sentinel / Azure Security environments  
-- Security Operations Centre (SOC) roles  
-- Threat detection and incident response  
-
----
-
 ##  Let’s Connect
 
- Location: UK  
- LinkedIn: <https://www.linkedin.com/in/komalashivayyahiremath/>  
- GitHub: https://github.com/komalahiremath  
+- Location: UK  
+- LinkedIn: <https://www.linkedin.com/in/komalashivayyahiremath/>  
+- GitHub: https://github.com/komalahiremath  
 
 ---
 
