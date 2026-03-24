@@ -1,32 +1,46 @@
-#  Cybersecurity Portfolio  
-A collection of hands-on cybersecurity projects demonstrating skills in malware analysis, network security, threat detection, packet analysis, and blue-team operations.  
-This portfolio highlights my practical learning and showcases real-world defensive techniques used by SOC and Cyber Defence teams.
+# Komala Hiremath – Cybersecurity Portfolio
+
+I'm Komala, a cybersecurity analyst with hands-on experience in SOC monitoring, SIEM tools (Microsoft Sentinel, Splunk), and cloud security. This portfolio showcases practical, real-world projects focused on threat detection, log analysis, and incident investigation.
+
+I am currently seeking opportunities in **Security Analyst / SOC Analyst roles in the UK**, where I can contribute to security operations, threat detection, and cloud-based security monitoring.
 
 ---
 
-##  Project Overview
+##  Featured Projects
 
-### 1.  Malware Analysis  
-**File:** `malware-analysis/virustotal-YARA.md`  
-A step-by-step analysis of a malicious PDF file using **VirusTotal**, **YARA rules**, and basic malware triage techniques.  
-This project demonstrates:  
-- Identifying malicious indicators inside a suspicious file  
-- Writing and applying custom YARA signatures  
-- Understanding malware behaviour and threat classification  
+###  Cloud Security Monitoring (Microsoft Sentinel Honeypot)
+**What it does:**  
+Built a cloud-based honeypot using Azure VM, Microsoft Sentinel, and Defender for Cloud to detect and analyse real-time brute-force attacks. Visualised attacker activity using KQL dashboards.
 
----
-
-### 2.  OSI Layers – Attacks & Controls  
-**File:** `osi-layers-attacks-controls/osi-layer-attack-control-matrix.md`  
-A clear breakdown of the **OSI model**, common cyber attacks at each layer, and best-practice security controls.  
-This project demonstrates:  
-- Strong foundational knowledge in networking  
-- Mapping cyber threats to network layers  
-- Understanding defensive mechanisms like Firewalls, IDS/IPS, Port Security, VLANs, etc.  
+**Skills:** Azure Sentinel, KQL, Log Analytics, Threat Detection, SIEM  
+📁 Repo: `Cloud-Security-Monitoring`
 
 ---
 
-### 3.  Wireshark Network Traffic Analysis  
+###  Splunk Malware Investigation Lab
+**What it does:**  
+Simulated reverse TCP malware in a Kali–Windows lab environment. Analysed host and network logs in Splunk to detect malicious activity and identify IOCs.
+
+**Skills:** Splunk, Log Analysis, IOC Detection, MITRE ATT&CK  
+📁 Repo: `Splunk-Malware-Investigation`
+
+---
+
+###  Active Directory Security Monitoring
+**What it does:**  
+Monitored Windows Active Directory logs in Splunk to detect brute-force authentication attacks and suspicious login behaviour.
+
+**Skills:** SIEM Monitoring, Authentication Logs, Threat Detection  
+📁 Repo: `Active-Directory-Monitoring`
+
+---
+### Microsoft Defender: Incident Simulation
+**What it does:**
+Uses Microsoft Defender XDR to investigate simulated malware alerts. Includes alert walkthroughs, endpoint context, and incident response steps.
+Skills: Alert triage, endpoint security, XDR
+
+---
+###  Wireshark Network Traffic Analysis  
 **File:** `wireshark/network-traffic.md`  
 A practical project analysing packet captures (PCAP) using **Wireshark**.  
 Includes:  
@@ -38,31 +52,94 @@ This demonstrates practical **network forensics** and packet-level understanding
 
 ---
 
-##  Skills Demonstrated
-- Malware Analysis (VirusTotal, YARA)
-- Email & File-Based Threat Analysis
-- OSI Layer Threat Mapping
-- Network Forensics (Wireshark)
-- Detection Engineering (KQL, Sentinel)
-- Incident Documentation & Reporting
-- Cybersecurity Fundamentals (Blue Team)
-- Threat Intelligence Concepts
+###  OSI Layers – Attacks & Controls  
+**File:** `osi-layers-attacks-controls/osi-layer-attack-control-matrix.md`  
+A clear breakdown of the **OSI model**, common cyber attacks at each layer, and best-practice security controls.  
+This project demonstrates:  
+- Strong foundational knowledge in networking  
+- Mapping cyber threats to network layers  
+- Understanding defensive mechanisms like Firewalls, IDS/IPS, Port Security, VLANs, etc.  
+
+---
+###  Malware Analysis  
+**File:** `malware-analysis/virustotal-YARA.md`  
+A step-by-step analysis of a malicious PDF file using **VirusTotal**, **YARA rules**, and basic malware triage techniques.  
+This project demonstrates:  
+- Identifying malicious indicators inside a suspicious file  
+- Writing and applying custom YARA signatures  
+- Understanding malware behaviour and threat classification
+
+
+##  About Me
+
+- CompTIA Security+ certified cybersecurity professional  
+- Hands-on experience with **Microsoft Sentinel, Azure Log Analytics, and Splunk**  
+- Skilled in **KQL (Kusto Query Language)** for threat detection and log analysis  
+- Experience in **incident triage, IOC analysis, and SOC workflows**  
+- Background in IT operations and security monitoring  
+- Currently building expertise in **cloud security and threat modelling**
+
+All projects in this portfolio are practical, self-executed, and aligned with real-world SOC and security analyst tasks.
 
 ---
 
-##  Purpose of This Portfolio
-This portfolio highlights my transition into cybersecurity by showing real practical skills rather than just theory.  
-Each project is designed to reflect tasks performed by:
-- SOC Analysts  
-- Incident Responders  
-- Cyber Defence Analysts  
-- Blue Team Engineers  
+##  Skills
+
+**SIEM & Security Tools:**  
+Microsoft Sentinel, Splunk, Microsoft Defender, Wireshark  
+
+**Cloud & Logging:**  
+Azure Log Analytics, Defender for Cloud  
+
+**Query & Scripting:**  
+KQL (Kusto Query Language), Splunk SPL, Python (basic)  
+
+**Security Concepts:**  
+Incident Response, Threat Detection, IOC Analysis, MITRE ATT&CK  
+
+**Systems & Networking:**  
+Windows, Linux, TCP/IP, Firewalls, Active Directory  
+
+**Frameworks:**  
+ISO 27001, OWASP Top 10, Cyber Kill Chain  
 
 ---
 
-##  Contact  
-**LinkedIn:** <https://www.linkedin.com/in/komalashivayyahiremath/>  
+##  Certifications
+
+- CompTIA Security+  
+- Microsoft SC-200 (In Progress)  
+- AWS Certified Cloud Practitioner  
+- ISO 27001 (BSI)  
+- CAPSLOCK Certified Cyber Security Practitioner  
+
 ---
 
- *Thank you for viewing my cybersecurity portfolio!*  
+##  Lab Experience
 
+- SOC L1 Labs (RangeForce / TryHackMe)  
+- Log analysis using Wazuh SIEM  
+- Investigated PowerShell-based attacks and encoded payloads  
+- Detected unauthorised access and suspicious login attempts  
+
+---
+
+##  Career Objective
+
+I am actively looking for **entry-level to junior Security Analyst / SOC Analyst roles in the UK**, particularly in:
+
+- Microsoft Sentinel / Azure Security environments  
+- Security Operations Centre (SOC) roles  
+- Threat detection and incident response  
+
+---
+
+##  Let’s Connect
+
+ Location: UK  
+ LinkedIn: <https://www.linkedin.com/in/komalashivayyahiremath/>  
+ GitHub: https://github.com/komalahiremath  
+
+---
+
+ *This portfolio is continuously updated as I build more hands-on projects in cloud security, SIEM, and threat detection.*
